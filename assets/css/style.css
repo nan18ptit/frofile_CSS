@@ -1,0 +1,112 @@
+/* Reset CSS */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+.clear{
+    clear: both;
+}
+/* 
+1. vi tri
+2. kích thuoc
+3. Màu sắc
+4. Kiểu dáng (kiểu chữ, hình tròn, hình vuông...)
+*/
+#main{
+    font-family: monospace;  
+}
+#header{
+    height: 110px;
+    background: #313131;
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+#header .heading{
+    padding: 20px 0 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+#header .sub_heading{
+    font-size: 16px;
+    color: #ccc;
+    font-style: italic;
+}
+#content{
+    background-color:rgba(238, 235, 235, 0.781);
+}
+#content .profile{
+    width: 80%;
+    padding: 30px 0px 10px ;  
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom:2px solid #ccc;
+}
+.profile .profile_title{
+    width: 70%;
+    float: left;
+}
+.profile_title .heading{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 12px
+}
+.about_table th, td {
+    padding: 3px;
+    border-bottom:1px solid #ccc;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5f5d5d;
+}
+.profile .avatar{
+    width: 25%;
+    border-radius: 4%;
+    border: 4px solid #807d7d;
+    box-shadow: 6px 12px #ccc;
+}
+.profile .avatar:hover{
+    opacity: 0.7;
+}
+#content .photo_list{
+    width: 80%;
+    padding: 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom:2px solid #ccc;
+}
+#content .photo_item{
+    float: left;
+    width: 25%;
+}
+.photo_list img{
+    width: 250px;
+    border-radius: 4%;
+    border: 2px solid #807d7d;
+    box-shadow: 2px 2px #ccc;
+}
+.photo_list img:hover{
+    opacity: 0.7;
+}
+.photo_item .photo_name{
+    font-family: monospace;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #807d7d;
+}
+#footer {
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+    background: #313131; 
+    text-align: center;   
+}
+#footer a{
+    text-decoration: none; 
+}
+#footer .icon{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;    
+}
